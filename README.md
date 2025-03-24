@@ -1,55 +1,16 @@
 # Tic Tac Toe Game
 This is a one of a kind Tic-Tac-Toe game. Developed in Javascript, play it if you feel you can beat the computer
 
-**Link to project:** http://recruiters-love-seeing-live-demos.com/
-
-![alt tag](http://placecorgi.com/1200/650)
+**Link to project:** https://github.com/jorge0510/tic-tac-toe/pull/new/answer
 
 ## How It's Made:
 
 **Tech used:** HTML, CSS, JavaScript, Framework of choice
 
-Here's where you can go to town on how you actually built this thing. Write as much as you can here, it's totally fine if it's not too much just make sure you write *something*. If you don't have too much experience on your resume working on the front end that's totally fine. This is where you can really show off your passion and make up for that ten fold.
+The game was developed with VanillaJS, and the challenge that I did to myself was: What would be the most straightforward way to make the game?
 
 ## Optimizations
-*(optional)*
-
-You don't have to include this section but interviewers *love* that you can not only deliver a final product that looks great but also functions efficiently. Did you write something then refactor it later and the result was 5x faster than the original implementation? Did you cache your assets? Things that you write in this section are **GREAT** to bring up in interviews and you can use this section as reference when studying for technical interviews!
+At the moment, the game uses Math.radom to select where the computer is going to put his mark. This can be improved by looking at the innerText of the divs, then a loop can go through it and with a few conditions know where it ewould be better to place the mark.
 
 ## Lessons Learned:
-
-No matter what your experience level, being an engineer means continuously learning. Every time you build something you always have those *whoa this is awesome* or *wow I actually did it!* moments. This is where you should share those moments! Recruiters and interviewers love to see that you're self-aware and passionate about growing.
-
-## Examples:
-Take a look at these couple examples that I have in my own portfolio:
-
-**Palettable:** https://github.com/alecortega/palettable
-
-**Twitter Battle:** https://github.com/alecortega/twitter-battle
-
-**Patch Panel:** https://github.com/alecortega/patch-panel
-
-
-
-<!-- # 📊 Morning Challenge: Tic-Tac-Toe
-
-### Goal: Create a two player Tic-Tac-Toe game. The users should be able to click to place their X or O and if they win the program should mention their win in the DOM. Please make the game as OOP as possible.
-
-### How to submit your code for review:
-
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
-
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-``` -->
+Doing this game helped me to think in the terms of the DOM + VanillaJS, depending just on what is giving by the browser, while delivering accionable results
